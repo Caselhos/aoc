@@ -1,0 +1,15 @@
+day_2_2.c:1:0: information: Include file: "stdio.h" not found. [missingInclude]
+#include "stdio.h"
+^
+day_2_2.c:2:0: information: Include file: "stdlib.h" not found. [missingInclude]
+#include "stdlib.h"
+^
+day_2_2.c:3:0: information: Include file: "string.h" not found. [missingInclude]
+#include "string.h"
+^
+day_2_2.c:4:0: information: Include file: <time.h> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
+#include <time.h>
+^
+day_2_2.c:26:16: style: Variable 'gameId' is assigned a value that is never used. [unreadVariable]
+        gameId = strtol(&token[4],NULL,10);
+               ^
